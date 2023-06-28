@@ -1,0 +1,11 @@
+create database distributed;
+use distributed;
+
+create table register(username varchar(30) primary key,
+password varchar(30),
+contact varchar(12));
+
+insert into register values('aaa','aaa','9997779991');
+insert into register values('bbb','bbb','9997779992');
+insert into register values('ccc','ccc','9997779993');
+commit;
